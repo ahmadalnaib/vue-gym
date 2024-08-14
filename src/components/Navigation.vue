@@ -13,7 +13,7 @@ import { RouterLink } from 'vue-router';
       <ul class="flex flex-1 justify-end gap-x-10">
         <RouterLink class="cursor-pointer" :to="{ name: 'Home' }">Home</RouterLink>
         <RouterLink class="cursor-pointer" :to="{ name: '' }">Create</RouterLink>
-        <RouterLink class="cursor-pointer" :to="{ name: '' }">Login</RouterLink>
+        <RouterLink class="cursor-pointer" :to="{ name: 'Login' }">Login</RouterLink>
         <li class="cursor-pointer">Logout</li>
       </ul>
     </nav>
